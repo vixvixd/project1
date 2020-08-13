@@ -1,3 +1,4 @@
+
 package com.jojoldu.book.springboot.config.auth;
 
 import com.jojoldu.book.springboot.domain.user.Role;
