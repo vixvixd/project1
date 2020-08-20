@@ -1,4 +1,3 @@
-
 package com.jojoldu.book.springboot.config.auth;
 
 import com.jojoldu.book.springboot.domain.user.Role;
@@ -16,7 +15,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .cors().and()
                 .csrf().disable()
                 .headers().frameOptions().disable()
                 .and()
